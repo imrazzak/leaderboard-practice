@@ -1,0 +1,221 @@
+/* Import Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins&display=swap');
+/* Common Utilities */
+
+* {
+    /* Universal */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(218, 237, 253);
+}
+
+/* Header CSS */
+
+header {
+    background-color: #146356;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+header ul span {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 870px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 36px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e5ebf1;
+}
+
+.widget-title {
+    color: #146356;
+}
+
+/* Leaderboar CSS */
+
+.students {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 0;
+    grid-row-gap: 20px;
+}
+
+.student {
+    display: flex;
+    align-items: flex-start;
+}
+
+.student-profile img {
+    height: 56px;
+    width: 56px;
+}
+
+/* .student span {
+    margin-left: 16px;
+} */
+
+.student-info {
+    margin-left: 16px;
+}
+
+.student-info span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 6px;
+}
+
+.student-info .student-country {
+    color: #146356;
+}
+
+.student-country .fa-globe-asia {
+    margin-right: 7px;
+}
+
+/* Trending Blog CSS */
+
+.trending-blogs .widget-title {
+    margin-top: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-top: 32px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .blog-featured img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog .blog-info {
+    margin-left: 16px;
+}
+
+.blog-info p {
+    margin-top: 6px;
+    color: #9F9F9F;
+}
+
+.blog-info p a {
+    text-decoration: none;
+    color: #146356;
+}
+
+/* Latest Courses */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.course {
+    background-color: white;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    margin-top: 30px;
+}
+
+.course .course-thumbnail img {
+    width: 100%;
+    height: 124px;
+}
+
+.course-detail {
+    padding: 10px;
+}
+
+.course-instructor {
+    color: #146356;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.rating .filled {
+    color: #FFC014;
+}
+
+.rating .empty {
+    color: #AEAEAE;
+    opacity: .5;
+}
+
+.course-duration {
+    background-color: #146356;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* Footer  */
+
+footer {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.copyright {
+    font-weight: 600;
+    text-transform: uppercase;
+}
